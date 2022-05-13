@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  // Este widget es la raíz de su aplicación.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -34,46 +34,46 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
+      // Esta llamada a setState le dice al marco Flutter que algo tiene
+      // cambió en este estado, lo que hace que se vuelva a ejecutar el método de compilación a continuación
+      // para que la pantalla pueda reflejar los valores actualizados. si cambiamos
+      // _counter sin llamar a setState(), entonces el método de compilación no sería
+      // llamé de nuevo, por lo que no parece que suceda nada.
       _counter++;
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
+    // Este método se vuelve a ejecutar cada vez que se llama a setState, por ejemplo, como hecho
+    // por el método _incrementCounter anterior.
     //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
+    // El marco de trabajo de Flutter se ha optimizado para volver a ejecutar métodos de compilación
+    // rápido, para que pueda reconstruir cualquier cosa que necesite actualizarse en lugar de
+    // que tener que cambiar individualmente las instancias de los widgets.
     return Scaffold(
       appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
+        // Aquí tomamos el valor del objeto MyHomePage que fue creado por
+        // el método App.build y lo usamos para configurar el título de nuestra barra de aplicaciones.
         title: Text(widget.title),
       ),
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
+        // Center es un widget de diseño. Toma un solo hijo y lo posiciona
+        // en medio del padre.
         child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
+          // La columna también es un widget de diseño. Se necesita una lista de hijos y
+          // los organiza verticalmente. Por defecto, se ajusta a sí mismo para adaptarse a su
+          // hijos horizontalmente, y trata de ser tan alto como su padre.
           //
-          // Invoke "debug painting" (press "p" in the console, choose the
-          // "Toggle Debug Paint" action from the Flutter Inspector in Android
-          // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
-          // to see the wireframe for each widget.
+          // Invocar "pintura de depuración" (presione "p" en la consola, elija el
+          // Acción "Toggle Debug Paint" del Flutter Inspector en Android
+          // Studio, o el comando "Toggle Debug Paint" en Visual Studio Code)
+          // para ver la estructura alámbrica de cada widget.
           //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
+          // La columna tiene varias propiedades para controlar cómo se dimensiona a sí misma y
+          // cómo posiciona a sus hijos. Aquí usamos mainAxisAlignment para
+          // centrar a los niños verticalmente; el eje principal aquí es la vertical
+          // eje porque las columnas son verticales (el eje transversal sería
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ), // Esta coma final hace que el formato automático sea más agradable para los métodos de compilación
     );
   }
 }
