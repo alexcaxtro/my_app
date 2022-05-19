@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: const MyHomePage(title: 'Oscar y compañia'),
+      home: const MyHomePage(title: 'Test Flutter'),
     );
   }
 }
