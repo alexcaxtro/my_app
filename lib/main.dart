@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: const MyHomePage(title: 'Test Flutter'),
+      home: const MyHomePage(title: 'Test 2 Flutter'),
     );
   }
 }
