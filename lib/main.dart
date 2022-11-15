@@ -62,20 +62,6 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center es un widget de diseño. Toma un solo hijo y lo posiciona
         // en medio del padre.
         child: Column(
-          // La columna también es un widget de diseño. Se necesita una lista de hijos y
-          // los organiza verticalmente. Por defecto, se ajusta a sí mismo para adaptarse a su
-          // hijos horizontalmente, y trata de ser tan alto como su padre.
-          //
-          // Invocar "pintura de depuración" (presione "p" en la consola, elija el
-          // Acción "Toggle Debug Paint" del Flutter Inspector en Android
-          // Studio, o el comando "Toggle Debug Paint" en Visual Studio Code)
-          // para ver la estructura alámbrica de cada widget.
-          //
-          // La columna tiene varias propiedades para controlar cómo se dimensiona a sí misma y
-          // cómo posiciona a sus hijos. Aquí usamos mainAxisAlignment para
-          // centrar a los niños verticalmente; el eje principal aquí es la vertical
-          // eje porque las columnas son verticales (el eje transversal sería
-          // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
